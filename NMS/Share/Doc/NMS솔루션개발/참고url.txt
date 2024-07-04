@@ -1,0 +1,6 @@
+[관제등록 및 장애등록 시스템]
+ID : master / PW : 1234  
+http://wintus.iptime.org:9090/tmhana_web/index.do
+
+[NMS] 장애 관리 시스템
+http://wintus.iptime.org:9090/tmwatch_nmslv_new/main.do

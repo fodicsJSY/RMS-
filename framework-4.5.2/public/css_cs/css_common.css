@@ -1,0 +1,362 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    width: 1920px;
+    height: 1080px;
+    background: #333333;
+    #border: solid 1px #00a0e9;
+}
+
+/* 메인 header-top ---------------------------------------- */
+.header-top{
+    width: 1920px;
+    height: 60px;
+    flex-direction:row;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    #flex: 0 0 auto;
+    #border: 1px solid #404040;
+    background: #FFFFFF;
+}
+
+.ht-left{
+    width: 281.26px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.htl-logo{
+    width: 143.26px;
+    height: 48px;
+}
+
+.htl-logo-img {
+    position: relative;
+    width: 143.26px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.htl-text {
+    color: #354052;
+    font-size: 20px;
+    position: relative;
+    width: fit-content;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ht-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.ht-right-text {
+    position: relative;
+    width: fit-content;
+    font-family: "NanumSquare-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.icon-user-wrapper {
+    background-color: #ffb500;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+}
+
+.icon-user {
+    background-image: url(/img/user.png);
+    position: relative;
+    width: 28px;
+    height: 28px;
+    top: 2px;
+    left: 2px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.btn-login-wrapper {
+    display: flex;
+    width: 80px;
+    padding: 5px 6px;
+    background-color: #008f8c;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    border-radius: 100px;
+}
+
+.btn-icon-login {
+    /*background-image: url(./img/iconbtn-workout.png);*/
+    /*position: relative;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+    /*background-size: cover;*/
+    /*background-position: 50% 50%;*/
+}
+
+.btn-login {
+    position: relative;
+    width: fit-content;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header-top .btn-login a {
+    border-radius: 5px;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-family: "NanumSquare-Bold", Helvetica;
+    padding-top:10px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 1rem;
+    text-decoration-line: none;
+}
+
+/* 메인 header ---------------------------------------- */
+.header{
+    width: 1920px;
+    height: 60px;
+    background: #1A1A1A;
+    #border: 1px solid #404040;
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px 170px;
+    justify-content: center;
+    left: 362px;
+    gap: 1px;
+    opacity: 0px;
+    #color: #FFFFFF;
+
+}
+
+.btn-menu-wrapper {
+    display: flex;
+    width: 170px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding-top:18px;
+    padding-bottom:18px;
+    position: relative;
+    color: #FFFFFF;
+    font-family: NanumSquare;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.43px;
+    text-align: left;
+}
+
+.btn-menu-login {
+    background-image: url(../img/iconMenu_dashboard.png);
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.btn-menu-wrapper:hover {
+
+    color:#1DD6BB;
+
+}
+.btn-menu-login:hover{
+    background-image: url(../img/iconMenu_dashboard_hover.png);
+}
+
+/* 메뉴 */
+ul {
+    #border-bottom: 1px solid rgba(242, 242, 242, 1);
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+li a {
+    #border-radius: 5px;
+    color: rgba(0, 0, 0, .5);
+    display: block;
+    height: 44px;
+    text-decoration: none;
+}
+li.menu-item a {
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 38px;
+    line-height: 36px;
+    padding: .4rem .65rem;
+    text-align: center;
+}
+header li.menu-item a:hover,
+
+/* 테이블 ---------------------------------------- */
+.table1_search {
+    width: 1820px;
+    height: 46px;
+    background: #1e1e1e;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table1_search label{
+    padding-left: 20px;
+}
+
+.table1_search input{
+    color: #FFFFFF;
+    width: 140px;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    color: #FFFFFF;
+    border: 1px solid #3C3C3C;
+}
+
+.table1_search select{
+    color: #FFFFFF;
+    width: 140px;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    #border: 1px solid #3C3C3C;
+}
+
+.table1_menu1 {
+    width: 1820px;
+    height: 36px;
+    background: #1e1e1e;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+
+.table1 table{
+    width: 1820px;
+    height: 642px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #808080;
+}
+
+.table1 table tr{
+
+}
+
+.table1 table, th, td {
+    border-collapse: collapse;
+    height: 40px;
+
+}
+
+.table1 table tr th{
+    background: #282828;
+    color: #ffffff;
+    border-bottom: 1px solid #404040;
+    text-align: center;
+
+}
+
+.table1 table tr td{
+    background: #1E1E1E;
+    color: #ffffff;
+    border-bottom: 1px solid #404040;
+    #padding: 0px 30px;
+
+}
+
+.table1 input{
+    #height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    #border: 1px solid #3C3C3C;
+    color: #FFFFFF;
+
+}
+
+.table1 select{
+    color: #FFFFFF;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    #border: 1px solid #3C3C3C;
+}
+
+.table1_page1 {
+    width: 1820px;
+    height: 20px;
+    background: #1e1e1e;
+    color: #FFFFFF;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table1_page1_footer {
+    width: 1820px;
+    height: 74px;
+    background: #1e1e1e;
+    color: #FFFFFF;
+}
+
+.btn_add1 {
+
+    color: white;
+    font-size: 14px;
+    font-family: NanumSquare;
+    font-weight: 700;
+    word-wrap: break-word;
+
+    width: 100%; height: 100%; padding-left: 10px;
+    padding-right: 10px; padding-top: 5px;
+    padding-bottom: 5px; background: #1E1E1E;
+    border-radius: 100px; border: 1px #24C0A9 solid;
+    justify-content: center; align-items: center;
+    gap: 4px; display: inline-flex
+}
+

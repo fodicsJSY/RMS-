@@ -1,0 +1,105 @@
+.tpContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 테이블 css 시작 */
+
+.tableContainer{
+    width: 1780px;
+    height: 440px;
+    margin: 0 0 0 12px;
+    text-align: center;
+    border-top: 1px solid #404040;
+}
+
+.tableContainer *{
+    border-collapse: collapse;
+}
+
+
+.communityTable{
+    width: 1780px;
+    height: 440px;
+}
+
+thead{
+    background-color: #282828;
+    border-bottom: 1px solid #404040;
+}
+
+
+tr{
+    height: 40px;
+}
+
+td{
+    border-bottom: 1px solid #404040;
+}
+
+
+tr>td:first-child{
+    width: 200px;
+}
+tr>td:nth-child(3), tr>td:nth-child(4),tr>td:nth-child(5),tr>td:nth-child(6){
+    width: 240px;
+}
+
+.fileImg{
+    width: 24px;
+    height: 24px;
+}
+
+/* 테이블 css 끝 */
+
+/* 페이지네이션 css 시작 */
+
+.pagenationContainer{
+    width: 204.67px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.pagenationContainer>div{
+    width: 23.33px;
+    height: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.pagenationContainer>div>a{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.pagenationContainer>div>a:hover{
+    color: #24C0A9;
+}
+
+
+
+.prev{
+    background-image: url('../img/btn_arrowPrev.png'); 
+}
+
+
+.pagenationContainer>div>a:hover .prev {
+    background-image: url('../img/btn_arrowPrev_hover.png'); 
+}
+
+
+.next{
+    background-image: url('../img/btn_arrowNext.png'); 
+}
+
+
+.pagenationContainer>div>a:hover .next {
+    background-image: url('../img/btn_arrowNext_hover.png'); 
+}
+
+/* 페이지네이션 css 끝 */

@@ -1,0 +1,118 @@
+.communityList-tpContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 테이블 css 시작 */
+
+.communityList-tableContainer001{
+    width: 1780px;
+    height: 440px;
+    margin: 0 0 0 12px;
+    text-align: center;
+    border-top: 1px solid #404040;
+}
+
+.communityList-tableContainer001 *{
+    border-collapse: collapse;
+}
+
+
+.communityList-table{
+    width: 1780px;
+    height: 440px;
+}
+
+.communityList-thead{
+    background-color: #282828;
+    border-bottom: 1px solid #404040;
+}
+
+
+.communityList-tr{
+    height: 40px;
+}
+
+
+.communityList-td-frist{
+    width: 200px;
+    border-bottom: 1px solid #404040;
+}
+
+.communityList-td-620{
+    width: 620px;
+    border-bottom: 1px solid #404040;
+}
+
+.communityList-td-240{
+    width: 240px;
+    border-bottom: 1px solid #404040;
+}
+
+.fileImg{
+    width: 24px;
+    height: 24px;
+}
+
+/* 테이블 css 끝 */
+
+/* 페이지네이션 css 시작 */
+
+.communityList-pagenationContainer{
+    width: 204.67px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.communityList-pagenationContainer>div{
+    width: 23.33px;
+    height: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.communityList-pagenationContainer>div>a{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.communityList-pagenationContainer>div>a:hover{
+    color: #24C0A9;
+}
+
+
+
+.communityList-prevArrow{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/btn_arrowPrev.png); 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.communityList-prev_arrow:hover .communityList-prevArrow{
+    background-image: url(../../img/btn_arrowPrev_hover.png); 
+}
+
+
+.communityList-nextArrow{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/btn_arrowNext.png); 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+
+.communityList-next_arrow:hover .communityList-nextArrow{
+    background-image: url(../../img/btn_arrowNext_hover.png); 
+}
+
+/* 페이지네이션 css 끝 */

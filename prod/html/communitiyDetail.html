@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자원관리솔루션</title>
+    <link rel="stylesheet" href="../css/detail/communityDetail.css">
+    <link rel="stylesheet" href="../css/detail/table.css">
+    <script src="../js/communityList.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="headerInner">
+                <div><img src="/img/pologo.png" class="headLogo" alt=""></div>
+                <div class="webTitle">자원관리솔루션</div>
+            </div>
+            <div class="headerInner">
+                <div class="innerBox">
+                    <div class="headFont teamName">팀명</div>
+                    <div>|</div>
+                    <div class="headFont userName">김태희</div>
+                    <div><a href="#"><img src="../img/user.png" class="userImg" alt=""></a></div>
+                </div>
+                <div  class="innerBox">
+                    <div class="selectBoxName">휴식및종료</div>
+                    <div>
+                        <select name="options" class="selectBox" id="comboBox">
+                            <option value="option1">휴식</option>
+                            <option value="option2">종료</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="workoutBox">
+                    <a href="#" class="workout">
+                        <div class="workoutCon">
+                            <div><img src="/img/iconBTN_workOut.png" class="workoutImg" alt=""></div>
+                            <div>퇴근</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="categoryContainer">
+            <div class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon dashboard-image" id="dashboardIcon" alt=""></div><div>대시보드</div></div></a></div>
+            </div>
+            <div class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon dailyLog-image" id="dailyLogIcon" alt=""></div><div>관제일지</div></div></a></div>
+            </div>
+            <div class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon fault-image" id="faultIcon" alt=""></div><div>장애관리</div></div></a></div>
+            </div>
+            <div class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon approval-image" id="approvalIcon" alt=""></div><div>전자결제</div></div></a></div>
+            </div>
+            <div class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon resource-image" id="resourceIcon" alt=""></div><div>자원관리</div></div></a></div>
+            </div>
+            <div class="categoryList select">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon community-image"  id="communityIcon" alt=""></div><div class="choice">커뮤니티</div></div></a></div>
+            </div>
+            <div  class="categoryList">
+                <div><a href="#" class="category"><div class="categoryInner"><div><img class="categoryIcon system-image" id="systemIcon" alt=""></div><div>시스템관리</div></div></a></div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="sectionContainer">
+                <div class="categoryName"><div>커뮤니티</div></div>
+                <div class="contentContainer">
+                    <div class="titleContainer">
+                        <div class="contentTitle"><div>공지사항 상세</div></div>
+                        <!-- <div class="contentSuvTitle"><div class="redPoint">* </div><div>필수입력사항</div></div> -->
+                    </div>
+                    <div class="container">
+                        <div class="tableContainer">
+                            <table class="writeTable">
+                                <tbody>
+                                    <tr>
+                                        <th colspan='2' class="longTH"><div class="searchTitle">제목</div></th>
+                                        <td colspan='4' class="longTD"><div>제목입니다.</div></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan='2'  class="longTH"> <div class="searchTitle">작성자</div></th>
+                                        <td colspan='4' class="longTD"> <div>작성자입니다.</div></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan='2' class="fatTH"><div class="searchTitle">상세내용</div></th>
+                                        <td colspan='4' class="fatTD"><div>내용입니다.</div></td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan='2' class="shortTH">첨부파일1</th>
+                                        <td colspan='' class="shortTD">
+                                            <div class="fileContent">
+                                                2024000000fasdfa3254334.jpg
+                                            </div>
+                                        </td>
+                                        <th colspan='2' class="shortTH">첨부파일2</th>
+                                        <td colspan='' class="shortTD">
+                                            <div class="fileContent">
+                                                첨부파일 없음
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan='2' class="shortTH">첨부파일3</th>
+                                        <td colspan='' class="shortTD">
+                                            <div class="fileContent">
+                                                첨부파일 없음
+                                            </div>
+                                        </td>
+                                        <th colspan='2' class="shortTH">첨부파일4</th>
+                                        <td colspan='' class="shortTD">
+                                            <div class="fileContent">
+                                                첨부파일 없음
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan='2' class="shortTH">첨부파일5</th>
+                                        <td colspan='4'>
+                                            <div class="fileContent">
+                                                첨부파일 없음
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="buttonContainer">
+                            <div><button type="button" class="btns" id="goListButton">목록</button></div>
+                        </div>
+                        <form action="">
+                            <div class="inputContainer">
+                                <div class="commentContainer">
+                                    <div>댓글</div>
+                                    <div><textarea name="inputComment" class="commentInput" id="comment"></textarea></div>
+                                </div>
+                                <div class="fileUploadContainer">
+                                    <div>
+                                        <div>첨부파일</div>
+                                        <div class="fileUploadContainer001">
+                                            <div><input type="text" class="fileUpload"></div>
+                                            <div><button class="searchBtns">찾아보기</button></div>
+                                        </div>
+                                    </div>
+                                    <div><button class="btns">등록</button></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+html{
+    font-size: 15px;
+}
+
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: #1e1e1e; */
+    color:white;
+    font-family: NanumSquareEB;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+/* 다 만들고 삭제예정 */
+/* div, main, section, header, footer, article, nav, aside, form 
+{ border: 1px solid yellow; }   */
+
+
+
+
+
+
+
+
+section{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    margin: 60px 0 0 0;
+}
+
+
+section>div{
+    width: 1820px;
+    height: 850px;
+    margin: 20px 50px 0 50px;
+}
+
+.communityWrite-categoryName{
+    width: 200px;
+    height: 48px;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.communityWrite-categoryName>div{
+    color: #24C0A9;
+    font-size: 15px;
+    
+}
+
+
+.communityWrite-contentContainer{
+    background-color: #1E1E1E;
+    width: 1820px;
+    height: 924px;
+    padding: 10px;
+}
+
+.communityWrite-contentContainer>*{
+    margin-top: 10px;
+}
+
+
+.communityWrite-titleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.communityWrite-contentSuvTitle{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityWrite-redPoint{
+    font-size: 14px;
+    font-weight: 700;
+    color: red;
+}
+
+.communityWrite-contentSuvTitle>div:last-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.communityWrite-contentTitle{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.communityWrite-contentTitle>div{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.communityWrite-searchBtns{
+    width: 80px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #282828;
+    border: 1px solid #24C0A9;
+    color: #24C0A9;
+    margin-left: 15px;
+}
+
+
+
+.communityWrite-searchBtns:hover{
+    cursor: pointer;
+    background-color: #008F8C;
+    color: #ffffff;
+}
+
+.communityWrite-buttonContainer{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.communityWrite-buttonContainer01{
+    width: 66px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.communityWrite-btns{
+    width: 105px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #24C0A9;
+    background-color: #1E1E1E;
+    color: #24C0A9;
+    margin-right: 10px;
+}
+
+.communityWrite-btns:hover{
+    cursor: pointer;
+    background-color: #008F8C;
+    color: #ffffff;
+}
+

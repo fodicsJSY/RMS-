@@ -1,0 +1,117 @@
+
+
+.writeTable{
+    border-collapse: collapse;
+    border-top: 1px solid #333333;
+    margin: 0 0 0 10px;
+}
+
+th{
+    width: 230px;
+    background-color: #404040;
+    border-top: 1px solid #333333;
+}
+
+td{
+    padding: 0 15px 0 20px;
+    border-bottom: 1px solid #333333;
+}
+
+.longTH{
+    height: 60px;
+}
+
+.longTD{
+    height: 60px;
+}
+
+.fatTH{
+    height: 424px;
+}
+
+.fatTD{
+    height: 424px;
+}
+
+
+.shortTH{
+    width: 230px;
+    height: 60px;
+}
+
+.shortTD{
+    width: 700px;
+    height: 60px;
+}
+
+.pointContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+
+.searchTitle{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+}
+
+
+.tilteInput{
+    width: 1550px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    padding: 0 15px 0 15px;
+}
+
+
+
+
+
+.writerInput{
+    width: 1550px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    padding: 0 15px 0 15px;
+}
+
+.contentInput{
+    width: 1550px;
+    height: 400px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    padding: 0 15px 0 15px;
+    resize: none;
+}
+
+
+.fileContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.fileUpload{
+    width: 400px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 0 10px 0 20px;
+    background-color: #1A1A1A;
+    border: 1px solid #808080;
+}

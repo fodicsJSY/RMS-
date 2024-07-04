@@ -1,0 +1,660 @@
+/* 로그인 */
+.login {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    #border: 1px solid #3C3C3C;
+    background-image: url('/image/bg_base.jpg');
+
+}
+
+.loginbox{
+    padding-left: 560px;
+    padding-right: 560px;
+    padding-top: 253px;
+    padding-bottom: 253px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 800px;
+    height: 574px;
+}
+
+.loginboxline{
+    flex: 1 1 0; align-self: stretch; padding: 50px; background: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25); border-radius: 20px;
+    border: 1px #9AA2B2 solid; flex-direction: column;
+    justify-content: flex-start; align-items: flex-end; gap: 40px; display: inline-flex;
+    background: url('/image/bg_login.png');
+    background-size: 529px 572px;
+    background-repeat: no-repeat;
+
+}
+
+.loginboxline table tr td input {
+    width: 400px;
+    height: 48px;
+    border-radius: 20px;
+    border: 1px solid #24C0A9;
+}
+
+.loginbtn {
+    width: 400px;
+    height: 48px;
+    border-radius: 20px;
+
+    color: white;
+    font-size: 16px;
+    font-family: NanumSquare;
+    font-weight: 700;
+    word-wrap: break-word;
+    background: #24C0A9;
+    border: 1px solid #24C0A9;
+}
+
+.loginbtn2 {
+    width: 400px;
+    height: 48px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: NanumSquare;
+    font-weight: 700;
+    word-wrap: break-word;
+    background: #8BA1AE;
+    border: 1px solid #8BA1AE;
+}
+
+/* 자원관리 ---------- ---------- ---------- ---------- */
+
+table, th, td {
+    #border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.contents {
+    position: relative;
+    width: 1920px;
+    #height: 1080px;
+    height: 960px
+}
+
+.contents .view {
+    display: flex;
+    flex-direction: column;
+    width: 1820px;
+    height: 898px;
+    align-items: flex-start;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.contents .tab-menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1px;
+    position: relative;
+    flex: 0 0 auto;
+    padding-top: 20px;
+}
+
+.contents .tab-menu1 {
+    position: relative;
+    width: 200px;
+    height: 48px;
+    background-color: #121212;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.contents .tab-menu1-text {
+    color: #929292;
+    position: absolute;
+    top: 15px;
+    left: 73px;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.contents .menu-item1 a {
+    border-radius: 5px;
+    width: 200px;
+    height: 48px;
+    line-height: 36px;
+    text-align: center;
+    font-family: "NanumSquare-Bold", Helvetica;
+    padding-top:10px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    /*text-align: center;*/
+    /*letter-spacing: 0;*/
+    /*line-height: normal;*/
+    /*white-space: nowrap;*/
+}
+
+.contents .tab-menu2 {
+    position: relative;
+    width: 200px;
+    height: 48px;
+
+    background-color: #1e1e1e;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.contents .tab-menu2-text {
+    color: #24c0a9;
+    position: absolute;
+    top: 15px;
+    left: 73px;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.contents .tab-menu3 {
+    width: 296px;
+    height: 48px;
+    align:right;
+    background-color: #333333;
+    border-radius: 8px 8px 0px 0px;
+    color: #FFFFFF;
+}
+
+.tab-menu3 select{
+    color: #FFFFFF;
+    width: 200px;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    border: 1px solid #3C3C3C;
+}
+
+
+/* */
+.contents .con-box {
+    position: relative;
+    width: 1820px;
+    height: 1092px;
+    background-color: #1e1e1e;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.contents .overlap-group {
+    display: flex;
+    flex-direction: column;
+    width: 1820px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.contents .view-2 {
+    display: flex;
+    flex-direction: column;
+    width: 1820px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.contents .span {
+    color: #eb6877;
+}
+
+.contents .text-wrapper-4 {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+
+.contents .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+
+}
+
+
+.contents .contentsbox-object {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.contents .title-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.contents .view-3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.contents .view-4 {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+/* tablein -----------------------------------  */
+.table1in {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.table1in table{
+    color: #FFFFFF;
+    border-bottom: 1px solid #808080;
+
+}
+
+.table1in table tr{
+    height: 48px;
+}
+
+.table1in table tr th{
+    background: #282828;
+    width: 230px;
+    border-bottom: 1px solid #3C3C3C;
+    text-align: left;
+    padding: 0px 40px;
+}
+
+.table1in table tr td{
+    background: #1A1A1A;
+    width: 360px;
+    border-bottom: 1px solid #3C3C3C;
+    padding: 0px 30px;
+}
+
+.table1in input{
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    border: 1px solid #3C3C3C;
+    color: #FFFFFF;
+
+}
+
+.table1in select{
+    color: #FFFFFF;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    border: 1px solid #3C3C3C;
+}
+
+.a {
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+
+
+
+.contents .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "NanumSquare-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/*
+.contents .btn {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    color: #24c0a9;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+*/
+
+.contents .menu-item2 a {
+    border-radius: 5px;
+
+    width: 105px;
+    height: 36px;
+    line-height: 36px;
+
+    text-align: center;
+    font-family: "NanumSquare-Bold", Helvetica;
+
+    padding-top:10px;
+
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.contents .view-bottom-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15px 20px;
+    position: relative;
+    align-self: stretch;
+}
+
+/* 하단 */
+.contents .btn-submit {
+    all: unset;
+    position: relative;
+    width: 105px;
+    height: 36px;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #24c0a9;
+    color: #24c0a9;
+    font-size: 14px;
+}
+
+.contents .button {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    font-family: "NanumSquare-Bold", Helvetica;
+    font-weight: 700;
+    text-align: center;
+    width: 105px; height: 36px;
+}
+
+.contents .btn-list {
+    position: relative;
+    width: 105px;
+    height: 36px;
+    background-color: #008f8c;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.contents .btn-list a {
+    border-radius: 5px;
+    width: 105px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-family: "NanumSquare-Bold", Helvetica;
+
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    #padding: 1rem;
+    text-decoration-line: none;
+    padding: 10px 37.5px 10px 37.5px
+}
+
+/* 자원관리list 123123 ---------------------------------------- */
+.main5 {
+    width: 1820px;
+    height: 158px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    #padding-left: 20px;
+    #padding-right: 20px;
+    width: 100%;
+    #height: 100%;
+    height: 210px;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-flex;
+    #border: 1px solid red;
+}
+
+.main5_ct {
+    width:1780px;
+    height: 135px;
+    top: 31.25px;
+    left: 30px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    background: #FFFFFF;
+    #border: 1px solid #3C3C3C;
+    display: contents;
+}
+
+
+.main5_line{
+    width: 1820px;
+    height: 20px;
+    background: #333333;
+    #border: 1px solid #808080;
+}
+
+
+.main5 .menubox {
+
+    width: 202.5px;
+    height: 135px;
+    font-family: NanumSquare;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.43px;
+    text-align: left;
+
+
+
+    color: white;
+    font-size: 23.62px;
+    font-family: NanumSquare;
+    font-weight: 700;
+    #word-wrap: break-word;
+    background: #1E1E1E; border-radius: 18px;
+    border: 1.12px #808080 solid;
+    flex-direction: column; justify-content: center;
+    align-items: center; gap: 22.50px;
+    display: inline-flex;
+}
+
+.main5 .menubox2 {
+
+    width: 202.5px;
+    height: 135px;
+    padding: 22.5px 0px 22.5px 0px;
+    gap: 9px;
+    border-radius: 18px 0px 0px 0px;
+    border: 1.13px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+
+
+
+.main5 .menuboxhidden {
+    width: 123px;
+    height: 109px;
+    padding-top: 22.50px; padding-bottom: 25.88px; padding-left: 39.06px;
+    padding-right: 40.69px; background: #1E1E1E; border-radius: 18px;
+    #border: 1.12px #808080 solid;
+    flex-direction: column; justify-content: center;
+    align-items: center; gap: 22.50px; display: inline-flex
+}
+
+.menuboxtop {
+    justify-content: center;
+    align-items: center; gap: 11.25px;
+    display: inline-flex;
+}
+
+.menuboxtop_title {
+    justify-content: center;
+    align-items: center;
+    gap: 11.25px;
+    display: flex;
+}
+
+.menuboxon {
+    background-image: url('/image/icon_resource_on.png');
+    background-size:  40.50px 40.50px;
+    width: 40.50px;
+    height: 40.50px;
+    justify-content: center; align-items: center; display: flex
+}
+.menuboxoff {
+    background-image: url('/image/icon_resource.png');
+    background-size:  40.50px 40.50px;
+    #width: 40.50px;
+    #height: 40.50px;
+
+    width: 31.5px;
+    height: 31.5px;
+    justify-content: center; align-items: center; display: flex
+}
+
+.menubox1 {
+
+}
+/*.table5box_menu {*/
+/*    width: 202.5px;*/
+/*    height: 157.5px;*/
+
+
+/*    #width: 100%; #height: 100%;*/
+
+
+/*    padding-top: 22.50px; padding-bottom: 25.88px; padding-left: 39.06px;*/
+/*    padding-right: 40.69px; background: #1E1E1E; border-radius: 18px;*/
+/*    border: 1.12px #808080 solid; flex-direction: column; justify-content: center;*/
+/*    align-items: center; gap: 22.50px; display: inline-flex;*/
+
+/*    #background: #FFFFFF;*/
+/*    width: 202.5px;*/
+/*    height: 157.5px;*/
+/*    padding: 1px 10px 15px 20px;*/
+
+/*}*/
+/*
+.table5_search{
+    width: 1820px;
+    height: 36px;
+    border: 1px solid #3C3C3C;
+}
+ */
+
+/*
+.table5 input{
+    #height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    #border: 1px solid #3C3C3C;
+    color: #FFFFFF;
+
+}
+
+.table5 select{
+    color: #FFFFFF;
+    height: 36px;
+    border-radius: 10px;
+    background: #1A1A1A ;
+    #border: 1px solid #3C3C3C;
+}
+*/
+
+/*
+.table5 .delete1{
+    background-image: url('/image/delete.png');
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    background-size: 44px 24px;
+
+    cursor:pointer;
+
+    border: 0px;
+    cursor:pointer;
+    outline: 0;
+*/
+
+/***********************************789789 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
